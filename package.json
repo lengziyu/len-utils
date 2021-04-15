@@ -1,0 +1,44 @@
+{
+  "name": "len-utils",
+  "version": "1.0.8",
+  "description": "len的工具类",
+  "main": "index.js",
+  "scripts": {
+    "build": "node script/build.js",
+    "build-copy": "node script/build-copy.js",
+    "build-pack": "node script/build-pack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lengziyu/len-utils.git"
+  },
+  "keywords": [
+    "utils",
+    "fe"
+  ],
+  "author": "lengziyu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lengziyu/len-utils/issues"
+  },
+  "homepage": "https://github.com/lengziyu/len-utils#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "chalk": "^4.1.0",
+    "copy": "^0.3.2",
+    "coveralls": "^3.0.2",
+    "karma": "^6.3.2",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-coverage": "^2.0.3",
+    "karma-mocha": "^2.0.1",
+    "karma-mocha-reporter": "^2.2.5",
+    "karma-power-assert": "^1.0.0",
+    "mocha": "^8.3.2",
+    "ora": "^5.4.0",
+    "power-assert": "^1.6.0",
+    "rimraf": "^3.0.2",
+    "webpack": "^5.32.0"
+  }
+}
